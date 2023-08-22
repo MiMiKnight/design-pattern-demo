@@ -2,6 +2,8 @@
 
 [尚硅谷 设计模式教程](https://www.bilibili.com/video/BV1G4411c7N4?p=1&vd_source=478f23bc58e5b8ebc20933ceaaa169a6)
 
+[图文详解 23种设计模式](https://mp.weixin.qq.com/s?__biz=MzU0OTE4MzYzMw==&mid=2247517079&idx=2&sn=6406008df0b99ee3d97bbceaa278f2f2&chksm=fbb10a69ccc6837fde5639b70b4c8ef4f0902f3b728dd4f9a4bded687cac5ff8998af17e0719&scene=27)
+
 ## pattern01 单例设计模式
 
 > 概念：
