@@ -10,7 +10,7 @@ public class Item {
     /**
      * 库存
      */
-    private Long stock;
+    private Integer stock;
 
     public Item(ItemBuilder builder) {
         this.name = builder.getName();
@@ -21,7 +21,7 @@ public class Item {
         return name;
     }
 
-    public Long getStock() {
+    public Integer getStock() {
         return stock;
     }
 }

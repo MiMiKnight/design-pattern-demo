@@ -9,12 +9,12 @@ package com.github.mimiknight.designpattern.pattern04.case01;
 public class Main {
     public static void main(String[] args) {
         ItemBuilder itemBuilder = new ItemBuilder();
-        Item item = itemBuilder.setName("苹果").setStock(58L).build();
+        Item item = itemBuilder.setName("苹果").setStock(58).build();
 
         String name = item.getName();
         System.out.println("Item name ::" + name);
 
-        Long stock = item.getStock();
+        Integer stock = item.getStock();
         System.out.println("Item stock ::" + stock);
     }
 }

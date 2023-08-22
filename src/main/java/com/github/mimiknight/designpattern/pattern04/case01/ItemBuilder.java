@@ -8,10 +8,16 @@ package com.github.mimiknight.designpattern.pattern04.case01;
  */
 public class ItemBuilder {
 
-    private static final Long DEFAULT_STOCK = 0L;
+    private static final Integer DEFAULT_STOCK = 0;
     private String name;
 
-    private Long stock = DEFAULT_STOCK;
+    private Integer stock = DEFAULT_STOCK;
+
+    interface Constant {
+        Integer MIN_STOCK = 0;
+        Integer MAX_STOCK = 99999;
+        Integer DEFAULT_STOCK = MIN_STOCK;
+    }
 
     public Item build() {
         return new Item(this);
@@ -25,8 +31,8 @@ public class ItemBuilder {
         return this;
     }
 
-    public ItemBuilder setStock(Long stock) {
-        if (stock > 99999L) {
+    public ItemBuilder setStock(Integer stock) {
+        if (stock > Constant.MAX_STOCK) {
             throw new IllegalArgumentException("库存异常");
         }
         this.stock = stock;
@@ -37,7 +43,7 @@ public class ItemBuilder {
         return name;
     }
 
-    public Long getStock() {
+    public Integer getStock() {
         return stock;
     }
 }
