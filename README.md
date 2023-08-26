@@ -7,100 +7,68 @@
 ## type01 创建型（Creational）
 > 概念：创建型模式与对象的创建有关。
 
-### pattern01 单例设计模式（Singleton）
-#### case01
-#### case02
+### pattern01 单例设计模式（Singleton Pattern）
+- case01
+- case02
+- case03
+- case04
+- case05
+- case06
+- case07
 
-### pattern02 建造者模式（Builder）
-#### case01
-#### case02
+### pattern02 建造者模式（Builder Pattern）
 
-### pattern03 简单工厂模式（Simple Factory）
-#### case01
-#### case02
+### pattern03 简单工厂模式（Simple Factory Pattern）又称静态工厂模式
 
-### pattern04 抽象工厂模式（Abstract Factory）
-#### case01
-#### case02
+### pattern04 工厂方法模式（ Factory Method Pattern）
 
-### pattern05 原型模式（Prototype）
-#### case01
-#### case02
+### pattern05 抽象工厂模式（Abstract Factory Pattern）
+
+### pattern06 超级工厂模式（Super Factory Pattern）
+
+### pattern07 容器工厂模式（Container Factory Pattern）
+
+### pattern08 原型模式（Prototype Pattern）
+
 
 ## type02 结构型（Structural）
 > 概念：结构型模式处理类或对象的组合。
 
 ### pattern01 适配器模式（Adapter）
-#### case01
-#### case02
 
 ### pattern02 桥接模式（Bridge）
-#### case01
-#### case02
 
 ### pattern03 组合模式（Composite）
-#### case01
-#### case02
 
 ### pattern04 装饰模式（Decorator）
-#### case01
-#### case02
 
 ### pattern05 外观模式（Facade）
-#### case01
-#### case02
 
 ### pattern06 享元模式（Flyweight）
-#### case01
-#### case02
 
 ### pattern07 代理模式（Proxy）
-#### case01
-#### case02
 
 ## type03 行为型（Behavioral）
 > 概念：行为型模式对类或对象怎样交互和怎样分配职责进行描述。
 
 ### pattern01 责任链模式（Chain Of Responsibility）
-#### case01
-#### case02
 
 ### pattern02 命令模式（Command）
-#### case01
-#### case02
 
 ### pattern03 解释器模式（Interpreter）
-#### case01
-#### case02
 
 ### pattern04 迭代器模式（Iterator）
-#### case01
-#### case02
 
 ### pattern05 中介者模式（Mediator）
-#### case01
-#### case02
 
 ### pattern06 备忘录模式（Memento）
-#### case01
-#### case02
 
 ### pattern07 观察者模式（Observer）
-#### case01
-#### case02
 
 ### pattern07 状态模式（State）
-#### case01
-#### case02
 
 ### pattern08 策略模式（Strategy）
-#### case01
-#### case02
 
 ### pattern09 模版方法模式（TemplateMethod）
-#### case01
-#### case02
 
 ### pattern10 访问者模式（Visitor）
-#### case01
-#### case02
