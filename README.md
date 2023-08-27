@@ -27,41 +27,41 @@
 ## type02 结构型（Structural）
 > 概念：结构型模式处理类或对象的组合。
 
-### pattern01 适配器模式（Adapter）
+### pattern01 适配器模式（Adapter Pattern）
 
-### pattern02 桥接模式（Bridge）
+### pattern02 桥接模式（Bridge Pattern）
 
-### pattern03 组合模式（Composite）
+### pattern03 组合模式（Composite Pattern）
 
-### pattern04 装饰模式（Decorator）
+### pattern04 装饰模式（Decorator Pattern）
 
-### pattern05 外观模式（Facade）
+### pattern05 外观模式（Facade Pattern）
 
-### pattern06 享元模式（Flyweight）
+### pattern06 享元模式（Flyweight Pattern）
 
-### pattern07 代理模式（Proxy）
+### pattern07 代理模式（Proxy Pattern）
 
 ## type03 行为型（Behavioral）
 > 概念：行为型模式对类或对象怎样交互和怎样分配职责进行描述。
 
-### pattern01 责任链模式（Chain Of Responsibility）
+### pattern01 责任链模式（Chain Of Responsibility Pattern）
 
-### pattern02 命令模式（Command）
+### pattern02 命令模式（Command Pattern）
 
-### pattern03 解释器模式（Interpreter）
+### pattern03 解释器模式（Interpreter Pattern）
 
-### pattern04 迭代器模式（Iterator）
+### pattern04 迭代器模式（Iterator Pattern）
 
-### pattern05 中介者模式（Mediator）
+### pattern05 中介者模式（Mediator Pattern）
 
-### pattern06 备忘录模式（Memento）
+### pattern06 备忘录模式（Memento Pattern）
 
-### pattern07 观察者模式（Observer）
+### pattern07 观察者模式（Observer Pattern）
 
-### pattern07 状态模式（State）
+### pattern07 状态模式（State Pattern）
 
-### pattern08 策略模式（Strategy）
+### pattern08 策略模式（Strategy Pattern）
 
-### pattern09 模版方法模式（TemplateMethod）
+### pattern09 模版方法模式（TemplateMethod Pattern）
 
-### pattern10 访问者模式（Visitor）
+### pattern10 访问者模式（Visitor Pattern）
