@@ -8,13 +8,6 @@
 > 概念：创建型模式与对象的创建有关。
 
 ### pattern01 单例设计模式（Singleton Pattern）
-- case01
-- case02
-- case03
-- case04
-- case05
-- case06
-- case07
 
 ### pattern02 建造者模式（Builder Pattern）
 
