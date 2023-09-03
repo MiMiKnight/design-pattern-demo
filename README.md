@@ -86,3 +86,8 @@
 ### pattern10 模版方法模式（Template Method Pattern）
 
 ### pattern11 访问者模式（Visitor Pattern）
+
+## type04 未分类的设计模式
+> 概念：未分类的设计模式
+
+### pattern01 模型-视图-控制器 模式（Model-View-Controller Pattern）
