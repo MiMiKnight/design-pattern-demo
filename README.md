@@ -52,7 +52,7 @@
 
 ### pattern02 桥接模式（Bridge Pattern）
 
-### pattern03 组合模式（Composite Pattern）
+### pattern03 组合模式（Composite Pattern）又叫作整体-部分模式 （Part-Whole）
 
 ### pattern04 装饰模式（Decorator Pattern）
 
