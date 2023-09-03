@@ -93,3 +93,5 @@
 ### pattern01 模型-视图-控制器 模式（Model-View-Controller Pattern）
 
 ### pattern02 业务代表模式（Business Delegate Pattern）
+
+### pattern03 组合实体模式（Composite Entity Pattern）
