@@ -8,6 +8,9 @@ package com.github.mimiknight.designpattern.type01.pattern05.case03;
  */
 public class VehicleFactoryProvider {
 
+    private VehicleFactoryProvider() {
+    }
+
     public static VehicleAbstractFactory getFactory(String name) {
         if ("trunk".equals(name)) {
             return new TrunkFactory();

@@ -12,8 +12,9 @@ public class ChargeClient {
      * @param inputVoltage 给手机充电的电压
      */
     public void charge(AbstractPhone phone, IVoltage inputVoltage) {
-        // 获取手机额定充电电压
+        // 获取手机额定充电电压值
         VoltageType ratedVoltage = phone.getVoltage();
+        // 实际输入电压值
         VoltageType input = inputVoltage.getVoltage();
         // 如果额定充电电压和输入的电压不一致则充电失败
         if (ratedVoltage != input) {

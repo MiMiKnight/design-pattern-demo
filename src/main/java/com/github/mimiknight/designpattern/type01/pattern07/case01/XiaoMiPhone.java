@@ -1,4 +1,4 @@
-package com.github.mimiknight.designpattern.type01.pattern07;
+package com.github.mimiknight.designpattern.type01.pattern07.case01;
 
 import com.github.mimiknight.designpattern.type01.pattern06.case01.Phone;
 

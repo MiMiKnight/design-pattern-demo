@@ -9,7 +9,7 @@ package com.github.mimiknight.designpattern.type01.pattern02.case04;
  */
 public class ProductBuilder implements ProductBuilderStandard {
 
-    private Product product;
+    private final Product product;
 
     public ProductBuilder() {
         this.product = new Product();

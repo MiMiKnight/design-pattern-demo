@@ -1,4 +1,4 @@
-package com.github.mimiknight.designpattern.type01.pattern07;
+package com.github.mimiknight.designpattern.type01.pattern07.case01;
 
 import io.github.classgraph.ClassGraph;
 import io.github.classgraph.ScanResult;
@@ -6,7 +6,10 @@ import io.github.classgraph.ScanResult;
 import java.lang.annotation.Annotation;
 import java.util.List;
 
-public class ScanUtils {
+public class BeanScanUtils {
+
+    private BeanScanUtils() {
+    }
 
     /**
      * 扫描被指定注解标识的Class

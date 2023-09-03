@@ -2,6 +2,9 @@ package com.github.mimiknight.designpattern.type01.pattern03.case02;
 
 public class Gardener {
 
+    private Gardener() {
+    }
+
     public static Fruit getFruit(FruitEnum fruitEnum) {
         if (null == fruitEnum) {
             throw new IllegalArgumentException("argument invalid.");

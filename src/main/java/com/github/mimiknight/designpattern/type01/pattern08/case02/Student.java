@@ -40,10 +40,11 @@ public class Student implements Cloneable, Serializable {
      * 深拷贝
      *
      * @return {@link Object}
-     * @throws CloneNotSupportedException 克隆不支持例外
+     * @throws CloneNotSupportedException 克隆不支持异常
      */
     @Override
     protected Object clone() throws CloneNotSupportedException {
+        // common.lang3工具包中的深拷贝方法（序列化与反序列化方式实现深拷贝）
         return SerializationUtils.clone(this);
     }
 }

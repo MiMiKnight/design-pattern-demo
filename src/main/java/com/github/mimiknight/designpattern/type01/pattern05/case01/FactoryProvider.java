@@ -8,6 +8,9 @@ package com.github.mimiknight.designpattern.type01.pattern05.case01;
  */
 public class FactoryProvider {
 
+    private FactoryProvider() {
+    }
+
     public static AbstractFactory getFactory(Brand brand) {
         AbstractFactory factory;
         switch (brand) {

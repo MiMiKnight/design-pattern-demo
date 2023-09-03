@@ -2,6 +2,9 @@ package com.github.mimiknight.designpattern.type01.pattern06.case01;
 
 public class PhoneFactory {
 
+    private PhoneFactory() {
+    }
+
     public static <T extends Phone> T getPhone(PhoneType type) {
         try {
             T phone;

@@ -1,4 +1,4 @@
-package com.github.mimiknight.designpattern.type01.pattern07;
+package com.github.mimiknight.designpattern.type01.pattern07.case01;
 
 import java.util.HashMap;
 import java.util.List;
@@ -10,38 +10,39 @@ public class ContainerFactory {
      * 单例容器
      */
     private static final Map<String, Object> singleton = new HashMap<>(128);
+
     /**
      * 原型容器
      */
     private static final Map<String, Class<?>> prototype = new HashMap<>(128);
 
     public ContainerFactory(String packagePath) {
-        // 执行扫描获取被bean注解的class对象
-        List<Class<?>> classes = ScanUtils.scan(packagePath, Bean.class);
+        // 执行扫描获取被指定注解注释的class对象集合
+        List<Class<?>> classes = BeanScanUtils.scan(packagePath, Bean.class);
         // 解析
         resolve(classes);
     }
 
     public void resolve(List<Class<?>> classes) {
-        //遍历List集合
+        // 遍历List集合
         if (null == classes || classes.isEmpty()) {
             return;
         }
         for (Class<?> clazz : classes) {
-            //判断是否获取到注解
+            // 判断是否获取到注解
             if (!clazz.isAnnotationPresent(Bean.class)) {
                 continue;
             }
-            //获取注解的Value属性
+            // 获取注解的Value属性
             String value = clazz.getAnnotation(Bean.class).value();
             // 获取注解scope属性
             boolean scope = clazz.getAnnotation(Bean.class).scope();
             if (scope) {
-                //通过class构建函数新建实例
+                // 通过class构建函数新建实例
                 Object instance = newInstance(clazz);
-                //将实例存储到容器中（map集合）
+                // 将实例存储到容器中（map集合）
                 singleton.put(value, instance);
-            } else {  //如果为false则返回原型
+            } else {  // 如果为false则返回原型
                 prototype.put(value, clazz);
             }
         }

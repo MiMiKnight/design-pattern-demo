@@ -7,6 +7,7 @@ package com.github.mimiknight.designpattern.type01.pattern05.case03;
  * @since 2023-08-21 00:52:13
  */
 public class SUVFactory extends VehicleAbstractFactory {
+    
 
     @Override
     public Trunk getTrunk(Class<? extends Trunk> clazz) {

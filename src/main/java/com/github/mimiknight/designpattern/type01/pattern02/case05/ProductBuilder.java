@@ -18,7 +18,7 @@ import org.apache.commons.lang3.StringUtils;
  * @since 2023-08-26 12:09:44
  */
 public class ProductBuilder implements ProductBuilderStandard {
-    private Product product;
+    private final Product product;
 
 
     public ProductBuilder() {

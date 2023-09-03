@@ -12,6 +12,7 @@ public class PowerAdapter implements Voltage {
     public int output() {
         int output = this.voltage.output();
         switch (output) {
+            
             case 5:
                 output = 5;
                 break;

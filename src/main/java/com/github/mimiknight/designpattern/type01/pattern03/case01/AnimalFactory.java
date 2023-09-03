@@ -8,6 +8,9 @@ package com.github.mimiknight.designpattern.type01.pattern03.case01;
  */
 public class AnimalFactory {
 
+    private AnimalFactory() {
+    }
+
     public static Animal getAnimal(AnimalEnum animalEnum) {
         if (null == animalEnum) {
             throw new IllegalArgumentException("argument invalid.");
