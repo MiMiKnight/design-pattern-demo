@@ -79,10 +79,10 @@
 
 ### pattern07 观察者模式（Observer Pattern）
 
-### pattern07 状态模式（State Pattern）
+### pattern08 状态模式（State Pattern）
 
-### pattern08 策略模式（Strategy Pattern）
+### pattern09 策略模式（Strategy Pattern）
 
-### pattern09 模版方法模式（TemplateMethod Pattern）
+### pattern10 模版方法模式（TemplateMethod Pattern）
 
-### pattern10 访问者模式（Visitor Pattern）
+### pattern11 访问者模式（Visitor Pattern）
