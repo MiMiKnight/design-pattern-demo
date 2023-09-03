@@ -83,6 +83,6 @@
 
 ### pattern09 策略模式（Strategy Pattern）
 
-### pattern10 模版方法模式（TemplateMethod Pattern）
+### pattern10 模版方法模式（Template Method Pattern）
 
 ### pattern11 访问者模式（Visitor Pattern）
