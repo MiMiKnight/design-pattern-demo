@@ -95,3 +95,13 @@
 ### pattern02 业务代表模式（Business Delegate Pattern）
 
 ### pattern03 组合实体模式（Composite Entity Pattern）
+
+### pattern04 数据访问对象模式（Data Access Object Pattern）
+
+### pattern05 前端控制器模式（Front Controller Pattern）
+
+### pattern06 拦截过滤器模式（Intercepting Filter Pattern）
+
+### pattern07 服务定位器模式（Service Locator Pattern）
+
+### pattern08 传输对象模式（Transfer Object Pattern）
